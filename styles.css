@@ -1,10 +1,21 @@
 body{
     margin:0;
-    padding:0;
+    padding:10px;
     text-align: center;
+    font-family: 'Roboto', sans-serif;
 }
 p{
     margin: 5px;
+}
+h1{
+    font-size: 75px;
+    font-weight: 800;
+}
+h2{
+    font-weight: 500;
+}
+p{
+    font-weight: 400;
 }
 .intro{
     display:flex;
