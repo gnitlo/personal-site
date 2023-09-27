@@ -3,6 +3,8 @@ body{
     padding:10px;
     text-align: center;
     font-family: 'Roboto', sans-serif;
+    opacity: 0;
+    transition: opacity 2s;
 }
 p{
     margin: 5px;
@@ -58,4 +60,13 @@ p{
     flex-direction: row;
     align-items: center;
     justify-content: center;
+}
+.about{
+    background-color:white;
+    color:black;
+}
+.about:hover{
+    background-color: black;
+    border-color: white;
+    color: white;
 }

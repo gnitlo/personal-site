@@ -5,7 +5,7 @@ function handleClick(e){
         bar.style.animationPlayState = "running";
     });
     const lastBar = bars[bars.length - 1];
-    lastBar.addEventListener("animationed", () => {
+    lastBar.addEventListener("animationend", () => {
         setTimeout(() =>{
             window.location = e.target.href;
         }, 500);
