@@ -35,11 +35,12 @@ p{
     border-style: solid;
     border-color: black;
     border-width: 2px;
-    border-radius: 7%;
+    border-radius: 50px;
 }
-.socials>.button{
+.socials-links>.button{
     border-radius: 50px;
     margin:5px;
+    width: 75px;
 }
 .button:hover{
     background-color: white;
